@@ -1,0 +1,25 @@
+form{
+    margin-top: 3rem;;
+}
+
+form input[name="city"],
+form input[name="country"]{
+    background-color: transparent;
+    color: rgb(5, 41, 29);
+    border-bottom: 2px solid rgb(21, 28, 61); /* should have given a bottom line for city and country*/
+    border-radius: 0;
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+
+form input:focus{
+    background-color: transparent !important ;
+    box-shadow: none !important;
+    font-weight: 700;
+}
+
+form input
+.container::-webkit-input-placeholder {
+    color: white !important;
+}
